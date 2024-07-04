@@ -1,0 +1,127 @@
+body{
+    background: #1C1C1C;
+}
+
+.container{
+    background: #1F2937;
+    width: 550px;
+    height: 550px;
+    margin: 130px 0 0 500px;
+}
+#heading{
+    position: absolute;
+    width: 354px;
+    margin-left: 52px;
+    margin-top: 115px;
+}
+#generate-heading{
+    color: #FFFFFF;
+}
+#random-heading{
+    color: #4ADF86;
+}
+#paragraph{
+    position: absolute;
+    width: 372px;
+    margin-left: 52px;
+    margin-top: 205px;
+    color: #D5D4D8;
+}
+#generate-password-btn{
+    position: absolute;
+    width: 191px;
+    height: 52px;
+    margin-left: 52px;
+    margin-top: 284px;
+    background: #10B981;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+#limit-eight{
+    position: absolute;
+    margin-top: 287px;
+    margin-left: 255px;
+    color: white;
+}
+#limit-twelve{
+    position: absolute;
+    margin-top: 316px;
+    margin-left: 255px;
+    color: white;
+}
+.toggle-number{
+    position: absolute;
+    margin-top: 288px;
+    margin-left: 390px;
+    color: white;
+}
+.toggle-number input {
+    position: absolute;
+    cursor: pointer;
+    left: -19px;
+}
+#exclude-number{
+    position: absolute;
+    left: 5px;
+    white-space: nowrap;
+}
+.toggle-symbol{
+    position: absolute;
+    margin-top: 318px;
+    margin-left: 390px;
+    color: white;
+}
+.toggle-symbol input {
+    position: absolute;
+    cursor: pointer;
+    left: -19px;
+}
+#exclude-symbol{
+    position: absolute;
+    left: 5px;
+    white-space: nowrap;
+}    
+/* #toggle-symbol{
+    position: absolute;
+    margin-top: 316px;
+    margin-left: 370px;
+    color: white;
+} */
+hr{
+    border-top: white;
+    position: absolute;
+    margin-left: 52px;
+    margin-top: 361px;
+    width: 446px;
+}
+#password-one{
+    position: absolute;
+    margin-top: 396px;
+    margin-left: 52px;
+    padding-top: 10px;
+    width: 211px;
+    height: 27px;
+    border-radius: 6px;
+    border: none;
+    background: #273549;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+}
+#password-two{
+    position: absolute;
+    margin-top: 396px;
+    margin-left: 287px;
+    padding-top: 10px;
+    width: 211px;
+    height: 27px;
+    border: none;
+    border-radius: 6px;
+    background: #273549;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+}
